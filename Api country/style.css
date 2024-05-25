@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+background-image: url('image.png');
+background-repeat: no-repeat;
+background-size: cover;
+backdrop-filter: blur(8px);
+
+
+
+}
+    .container {
+    text-align: center;
+    }
+
+    input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    }
+    button {
+    padding: 8px 20px;
+    background-color: #b11971;
+    color:black;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    }
+.result {
+margin-top: 20px;
+border: 1px solid #ccc;
+padding: 20px;
+}
